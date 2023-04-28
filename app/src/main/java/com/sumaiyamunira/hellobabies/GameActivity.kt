@@ -22,6 +22,7 @@ class GameActivity : AppCompatActivity() {
 
     fun refresh(view: View) {
         startActivity(Intent(this, GameActivity::class.java))
+
         finish()
     }
 
