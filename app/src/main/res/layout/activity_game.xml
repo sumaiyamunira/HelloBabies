@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        tools:context=".GameActivity">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btnTicTac1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:layout_marginRight="3dp"
+
+                android:background="#FFD600"
+                android:onClick="btnTicTac" />
+
+            <ImageButton
+                android:id="@+id/btnTicTac2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:layout_marginRight="3dp"
+
+                android:background="#FFD600"
+                android:onClick="btnTicTac" />
+
+            <ImageButton
+                android:id="@+id/btnTicTac3"
+                android:layout_width="100dp"
+
+
+                android:layout_height="100dp"
+                android:background="#FFD600"
+                android:onClick="btnTicTac" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btnTicTac4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="3dp"
+                android:background="#FFD600"
+                android:onClick="btnTicTac" />
+
+            <ImageButton
+                android:id="@+id/btnTicTac5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+
+                android:layout_marginRight="3dp"
+                android:background="#FFD600"
+                android:onClick="btnTicTac" />
+
+            <ImageButton
+                android:id="@+id/btnTicTac6"
+                android:layout_width="100dp"
+
+
+                android:layout_height="100dp"
+                android:background="#FFD600"
+                android:onClick="btnTicTac" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btnTicTac7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+
+                android:layout_marginRight="3dp"
+                android:background="#FFD600"
+                android:onClick="btnTicTac" />
+
+            <ImageButton
+                android:id="@+id/btnTicTac8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+
+                android:layout_marginRight="3dp"
+                android:background="#FFD600"
+                android:onClick="btnTicTac" />
+
+            <ImageButton
+                android:id="@+id/btnTicTac9"
+                android:layout_width="100dp"
+
+
+                android:layout_height="100dp"
+                android:background="#FFD600"
+                android:onClick="btnTicTac" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:onClick="refresh"
+            android:text="Refresh Me!"
+            android:textAllCaps="false" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:src="@drawable/baby_thinking"></ImageView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
